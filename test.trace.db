@@ -1,0 +1,48 @@
+2023-02-07 15:57:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+select t1_0.id,t1_0.actor,t1_0.issuer,t1_0.status,t1_0.task from task t1_0 [42104-214]
+2023-02-07 15:59:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+INSERT INTO task (task, issuer, actor, status) VALUES ('Coffee', 'Mark', 'Elon', 0) [42104-214]
+2023-02-07 16:02:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+INSERT INTO task (task, issuer, actor, status) VALUES ('Coffee', 'Mark', 'Elon', 0) [42104-214]
+2023-02-07 16:04:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+INSERT INTO Task (task, issuer, actor, status) VALUES ('Coffee', 'Mark', 'Elon', 0) [42104-214]
+2023-02-07 16:06:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+INSERT INTO task (id, task, issuer, actor, status) VALUES (null, 'Coffee', 'Mark', 'Elon', 0) [42104-214]
+2023-02-07 16:06:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+INSERT INTO task (id, task, issuer, actor, status) VALUES (0, 'Coffee', 'Mark', 'Elon', 0) [42104-214]
+2023-02-07 16:08:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
+2023-02-07 16:08:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
+2023-02-07 16:09:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
+2023-02-07 16:11:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
+2023-02-07 16:11:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+select t1_0.id,t1_0.actor,t1_0.issuer,t1_0.status,t1_0.task from task t1_0 [42104-214]
+2023-02-07 16:11:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
+2023-02-07 16:12:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
+2023-02-07 16:13:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" not found (this database is empty); SQL statement:
+select t1_0.id,t1_0.actor,t1_0.issuer,t1_0.status,t1_0.task from task t1_0 [42104-214]
+2023-02-07 16:14:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
+2023-02-07 16:19:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+INSERT INTO country (name) VALUES ('India') [42104-214]
